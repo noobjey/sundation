@@ -1,0 +1,69 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: https://congress.api.sunlightfoundation.com/committees?apikey=6463f1dc6f324e3f99d0ed9d4742709e&chamber=house
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      User-Agent:
+      - Hurley v0.2
+      Accept-Encoding:
+      - gzip;q=1.0,deflate;q=0.6,identity;q=0.3
+      Accept:
+      - "*/*"
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Server:
+      - nginx/1.1.19
+      Date:
+      - Thu, 10 Sep 2015 16:47:26 GMT
+      Content-Type:
+      - application/json; charset=utf-8
+      Transfer-Encoding:
+      - chunked
+      Connection:
+      - keep-alive
+      Vary:
+      - Accept-Encoding
+      Status:
+      - 200 OK
+    body:
+      encoding: ASCII-8BIT
+      string: '{"results":[{"chamber":"house","committee_id":"HLZI","name":"House
+        Select Committee on the Events Surrounding the 2012 Terrorist Attack in Benghazi","office":"1036
+        LHOB","phone":"(202) 226-7100","subcommittee":false},{"chamber":"house","committee_id":"HSSM27","name":"Economic
+        Growth, Tax and Capital Access","parent_committee_id":"HSSM","phone":"(202)
+        225-5821","subcommittee":true},{"chamber":"house","committee_id":"HSSM26","name":"Health
+        and Technology","parent_committee_id":"HSSM","phone":"(202) 225-5821","subcommittee":true},{"chamber":"house","committee_id":"HSSM25","name":"Agriculture,
+        Energy and Trade","parent_committee_id":"HSSM","phone":"(202) 225-5821","subcommittee":true},{"chamber":"house","committee_id":"HLIG04","name":"Department
+        of Defense Intelligence and Overhead Architecture","parent_committee_id":"HLIG","phone":"(202)
+        225-4121","subcommittee":true},{"chamber":"house","committee_id":"HLIG03","name":"Emerging
+        Threats","parent_committee_id":"HLIG","phone":"(202) 225-4121","subcommittee":true},{"chamber":"house","committee_id":"HLIG08","name":"Terrorism,
+        Human Intelligence, Analysis, and Counterintelligence","parent_committee_id":"HLIG","phone":"(202)
+        225-4121","subcommittee":true},{"chamber":"house","committee_id":"HLIG05","name":"Technical
+        and Tactical Intelligence","parent_committee_id":"HLIG","phone":"(202) 225-4121","subcommittee":true},{"chamber":"house","committee_id":"HLIG09","name":"Oversight
+        and Investigations","parent_committee_id":"HLIG","phone":"(202) 225-4121","subcommittee":true},{"chamber":"house","committee_id":"HSGO29","name":"Transportation
+        and Public Assets","parent_committee_id":"HSGO","phone":"(202) 225-5074","subcommittee":true},{"chamber":"house","committee_id":"HSAP20","name":"Transportation,
+        and Housing and Urban Development, and Related Agencies","parent_committee_id":"HSAP","phone":"(202)
+        225-2141","subcommittee":true},{"chamber":"house","committee_id":"HSAP18","name":"Military
+        Construction, Veterans Affairs, and Related Agencies","parent_committee_id":"HSAP","phone":"(202)
+        225-3047","subcommittee":true},{"chamber":"house","committee_id":"HSAP24","name":"Legislative
+        Branch","parent_committee_id":"HSAP","phone":"(202) 226-7252","subcommittee":true},{"chamber":"house","committee_id":"HSAP15","name":"Homeland
+        Security","parent_committee_id":"HSAP","phone":"(202) 225-5834","subcommittee":true},{"chamber":"house","committee_id":"HSAP23","name":"Financial
+        Services and General Government","parent_committee_id":"HSAP","phone":"(202)
+        225-7245","subcommittee":true},{"chamber":"house","committee_id":"HSAP19","name":"Commerce,
+        Justice, Science, and Related Agencies","parent_committee_id":"HSAP","phone":"(202)
+        225-3351","subcommittee":true},{"chamber":"house","committee_id":"HSHM","name":"House
+        Committee on Homeland Security","office":"176 FHOB","phone":"(202) 226-8417","subcommittee":false},{"chamber":"house","committee_id":"HSHM12","name":"Emergency
+        Preparedness, Response, and Communications","parent_committee_id":"HSHM","phone":"(202)
+        226-8417","subcommittee":true},{"chamber":"house","committee_id":"HSHM11","name":"Border
+        and Maritime Security","parent_committee_id":"HSHM","phone":"(202) 226-8417","subcommittee":true},{"chamber":"house","committee_id":"HSHM09","name":"Oversight
+        and Management Efficiency","parent_committee_id":"HSHM","phone":"(202) 226-8417","subcommittee":true}],"count":126,"page":{"count":20,"per_page":20,"page":1}}'
+    http_version: 
+  recorded_at: Thu, 10 Sep 2015 16:47:25 GMT
+recorded_with: VCR 2.9.3
